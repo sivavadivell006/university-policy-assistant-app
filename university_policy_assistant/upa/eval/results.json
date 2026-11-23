@@ -1,0 +1,847 @@
+{
+  "summary": {
+    "questions": 17,
+    "passed": 17,
+    "answer_type_accuracy": 1.0,
+    "path_accuracy": 1.0,
+    "retrieval_hit_rate": 1.0,
+    "citation_recall": 1.0,
+    "citation_precision": 1.0,
+    "latest_circular_correct": 1.0,
+    "repeatable_across_runs": true,
+    "median_latency_ms": 2.07,
+    "max_latency_ms": 4.06
+  },
+  "results": [
+    {
+      "id": "Q01",
+      "tag": "answer",
+      "turns": [
+        "What is the minimum attendance I need to write the end-semester exam?"
+      ],
+      "path_per_turn": [
+        [
+          "interpret",
+          "retrieve",
+          "grade",
+          "answer"
+        ]
+      ],
+      "answer_type": "answer",
+      "subtype": "answer",
+      "retrieved": [
+        "ATT-2023-01#1",
+        "LAB-2023-06#2",
+        "EXM-2023-04#2",
+        "EXM-2024-08#1",
+        "ATT-2024-03#1",
+        "ATT-2024-03#2"
+      ],
+      "cited": [
+        "ATT-2023-01#1"
+      ],
+      "retrieval_hit": true,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "elapsed_ms": 2.22,
+      "node_timings_ms": {
+        "interpret": 1.35,
+        "retrieve": 0.22,
+        "grade": 0.29,
+        "answer": 0.03
+      },
+      "checks": {
+        "answer_type": true,
+        "subtype": true,
+        "path": true,
+        "required_cited": true,
+        "no_stale_citation": true,
+        "phrases": true
+      },
+      "passed": true,
+      "answer": "You need at least 75% attendance in each course to be allowed to write the end-semester examination for that course. Theory and lab courses are counted separately. Attendance is counted from the first working day of the semester to the last instructional day, as recorded by the course faculty on the attendance portal.  [1]\n\nSources:\n[1] Attendance Requirements Policy (ATT-2023-01, issued 10 Jul 2023), Section 1"
+    },
+    {
+      "id": "Q02",
+      "tag": "policy_update",
+      "turns": [
+        "Can I get attendance condonation and what is the fee?"
+      ],
+      "path_per_turn": [
+        [
+          "interpret",
+          "retrieve",
+          "grade",
+          "answer"
+        ]
+      ],
+      "answer_type": "answer",
+      "subtype": "answer_with_update",
+      "retrieved": [
+        "ATT-2024-03#1",
+        "ATT-2023-01#3",
+        "ATT-2024-03#2",
+        "ATT-2023-01#1",
+        "ATT-2023-01#4",
+        "ATT-2023-01#2"
+      ],
+      "cited": [
+        "ATT-2024-03#1"
+      ],
+      "retrieval_hit": true,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "elapsed_ms": 2.49,
+      "node_timings_ms": {
+        "interpret": 0.05,
+        "retrieve": 0.11,
+        "grade": 0.47,
+        "answer": 0.04
+      },
+      "checks": {
+        "answer_type": true,
+        "subtype": true,
+        "path": true,
+        "required_cited": true,
+        "no_stale_citation": true,
+        "phrases": true
+      },
+      "passed": true,
+      "answer": "With effect from the odd semester of academic year 2024-25, you may apply for condonation of attendance shortage only if your attendance in the course is between 70% and 74% (earlier limit: 65%). The condonation fee is now Rs. 500 per course (earlier fee: Rs. 300). The application route (class advisor to HoD) and the need for documentary proof such as a medical certificate are unchanged. Attendance below 70% cannot be condoned.  [1]\n\nUpdate: this reflects the more recent circular ATT-2024-03 (issued 5 Aug 2024), which replaces Section 3 of the earlier Attendance Requirements Policy (ATT-2023-01, issued 10 Jul 2023).\n\nSources:\n[1] Circular - Revision of Attendance Condonation Rules (ATT-2024-03, issued 5 Aug 2024), Section 1"
+    },
+    {
+      "id": "Q03",
+      "tag": "personal_record",
+      "turns": [
+        "My attendance is 68%. Am I eligible for condonation?"
+      ],
+      "path_per_turn": [
+        [
+          "interpret",
+          "retrieve",
+          "grade",
+          "answer"
+        ]
+      ],
+      "answer_type": "answer",
+      "subtype": "answer_with_update",
+      "retrieved": [
+        "ATT-2023-01#3",
+        "ATT-2024-03#1",
+        "ATT-2024-03#2",
+        "EXM-2024-08#1",
+        "ATT-2023-01#1",
+        "ATT-2023-01#4"
+      ],
+      "cited": [
+        "ATT-2024-03#1",
+        "ATT-2024-03#2"
+      ],
+      "retrieval_hit": true,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "elapsed_ms": 2.26,
+      "node_timings_ms": {
+        "interpret": 0.03,
+        "retrieve": 0.07,
+        "grade": 0.31,
+        "answer": 0.04
+      },
+      "checks": {
+        "answer_type": true,
+        "subtype": true,
+        "path": true,
+        "required_cited": true,
+        "no_stale_citation": true,
+        "phrases": true
+      },
+      "passed": true,
+      "answer": "Revised condonation limit and fee [1]\nWith effect from the odd semester of academic year 2024-25, you may apply for condonation of attendance shortage only if your attendance in the course is between 70% and 74% (earlier limit: 65%). The condonation fee is now Rs. 500 per course (earlier fee: Rs. 300). The application route (class advisor to HoD) and the need for documentary proof such as a medical certificate are unchanged. Attendance below 70% cannot be condoned.\n\nWhat has not changed [2]\nThe basic requirement of 75% attendance in each course, the treatment of on-duty attendance and the rules for detained students continue as per the Attendance Requirements Policy.\n\nUpdate: this reflects the more recent circular ATT-2024-03 (issued 5 Aug 2024), which replaces Section 3 of the earlier Attendance Requirements Policy (ATT-2023-01, issued 10 Jul 2023).\nI cannot see your personal records, so I cannot confirm that you are eligible. The rule above is what applies; confirm your case with your class advisor or the Department Academic Office.\n\nSources:\n[1] Circular - Revision of Attendance Condonation Rules (ATT-2024-03, issued 5 Aug 2024), Section 1\n[2] Circular - Revision of Attendance Condonation Rules (ATT-2024-03, issued 5 Aug 2024), Section 2"
+    },
+    {
+      "id": "Q04",
+      "tag": "ambiguity",
+      "turns": [
+        "What is the project report submission deadline?"
+      ],
+      "path_per_turn": [
+        [
+          "interpret",
+          "retrieve",
+          "grade",
+          "clarify"
+        ]
+      ],
+      "answer_type": "clarification",
+      "subtype": "clarification",
+      "retrieved": [
+        "PRJ-2023-02#3",
+        "PRJ-2023-02#2",
+        "PRJ-2023-02#4",
+        "PRJ-2025-04#1",
+        "PRJ-2023-02#1",
+        "LAB-2023-05#3"
+      ],
+      "cited": [],
+      "retrieval_hit": null,
+      "citation_precision": null,
+      "citation_recall": null,
+      "elapsed_ms": 1.78,
+      "node_timings_ms": {
+        "interpret": 0.18,
+        "retrieve": 0.09,
+        "grade": 0.34,
+        "clarify": 0.0
+      },
+      "checks": {
+        "answer_type": true,
+        "subtype": true,
+        "path": true,
+        "required_cited": true,
+        "no_stale_citation": true,
+        "phrases": true
+      },
+      "passed": true,
+      "answer": "One quick question so I give you the right rule: Is this about a mini project (semesters 5-6) or a final-year (capstone) project?"
+    },
+    {
+      "id": "Q05",
+      "tag": "ambiguity+update",
+      "turns": [
+        "What is the project report submission deadline?",
+        "final year"
+      ],
+      "path_per_turn": [
+        [
+          "interpret",
+          "retrieve",
+          "grade",
+          "clarify"
+        ],
+        [
+          "interpret",
+          "retrieve",
+          "grade",
+          "answer"
+        ]
+      ],
+      "answer_type": "answer",
+      "subtype": "answer_with_update",
+      "retrieved": [
+        "PRJ-2023-02#3",
+        "PRJ-2025-04#1",
+        "PRJ-2023-02#2",
+        "PRJ-2023-02#4",
+        "PRJ-2023-02#1",
+        "LAB-2023-05#3"
+      ],
+      "cited": [
+        "PRJ-2025-04#1"
+      ],
+      "retrieval_hit": true,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "elapsed_ms": 4.05,
+      "node_timings_ms": {
+        "interpret": 0.04,
+        "retrieve": 0.09,
+        "grade": 0.3,
+        "answer": 0.04
+      },
+      "checks": {
+        "answer_type": true,
+        "subtype": true,
+        "path": true,
+        "required_cited": true,
+        "no_stale_citation": true,
+        "phrases": true
+      },
+      "passed": true,
+      "answer": "From the even semester of 2024-25 onwards, the final-year (capstone) project report must be submitted no later than 15 working days before the start of the end-semester examinations (earlier: 10 working days). This circular applies to final-year projects only. Mini project deadlines are not affected.  [1]\n\nUpdate: this reflects the more recent circular PRJ-2025-04 (issued 10 Mar 2025), which replaces Section 3 of the earlier Project Work Submission Rules (PRJ-2023-02, issued 1 Aug 2023).\n\nSources:\n[1] Circular - Revised Final-Year Project Report Deadline (PRJ-2025-04, issued 10 Mar 2025), Section 1"
+    },
+    {
+      "id": "Q06",
+      "tag": "answer",
+      "turns": [
+        "When do I submit my mini project report?"
+      ],
+      "path_per_turn": [
+        [
+          "interpret",
+          "retrieve",
+          "grade",
+          "answer"
+        ]
+      ],
+      "answer_type": "answer",
+      "subtype": "answer",
+      "retrieved": [
+        "PRJ-2023-02#2",
+        "PRJ-2025-04#1",
+        "PRJ-2023-02#3",
+        "PRJ-2023-02#1",
+        "PRJ-2023-02#4",
+        "LAB-2023-05#3"
+      ],
+      "cited": [
+        "PRJ-2023-02#2"
+      ],
+      "retrieval_hit": true,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "elapsed_ms": 2.17,
+      "node_timings_ms": {
+        "interpret": 0.03,
+        "retrieve": 0.13,
+        "grade": 0.37,
+        "answer": 0.02
+      },
+      "checks": {
+        "answer_type": true,
+        "subtype": true,
+        "path": true,
+        "required_cited": true,
+        "no_stale_citation": true,
+        "phrases": true
+      },
+      "passed": true,
+      "answer": "Mini projects (done in semesters 5 and 6) must be submitted on the project portal, along with the demo video link, by the last instructional day of the semester.  [1]\n\nI can only explain the policy - I cannot submit or file requests on your behalf.\n\nSources:\n[1] Project Work Submission Rules (PRJ-2023-02, issued 1 Aug 2023), Section 2"
+    },
+    {
+      "id": "Q07",
+      "tag": "ambiguity",
+      "turns": [
+        "How are lab marks split up?"
+      ],
+      "path_per_turn": [
+        [
+          "interpret",
+          "retrieve",
+          "grade",
+          "clarify"
+        ]
+      ],
+      "answer_type": "clarification",
+      "subtype": "clarification",
+      "retrieved": [
+        "LAB-2023-06#1",
+        "LAB-2023-06#2",
+        "LAB-2023-05#4",
+        "LAB-2023-06#3",
+        "LAB-2023-06#4",
+        "LAB-2023-05#1"
+      ],
+      "cited": [],
+      "retrieval_hit": null,
+      "citation_precision": null,
+      "citation_recall": null,
+      "elapsed_ms": 2.02,
+      "node_timings_ms": {
+        "interpret": 0.03,
+        "retrieve": 0.13,
+        "grade": 0.27,
+        "clarify": 0.0
+      },
+      "checks": {
+        "answer_type": true,
+        "subtype": true,
+        "path": true,
+        "required_cited": true,
+        "no_stale_citation": true,
+        "phrases": true
+      },
+      "passed": true,
+      "answer": "One quick question so I give you the right rule: Do you mean the internal (continuous) assessment or the end-semester practical exam?"
+    },
+    {
+      "id": "Q08",
+      "tag": "ambiguity",
+      "turns": [
+        "How are lab marks split up?",
+        "end semester one"
+      ],
+      "path_per_turn": [
+        [
+          "interpret",
+          "retrieve",
+          "grade",
+          "clarify"
+        ],
+        [
+          "interpret",
+          "retrieve",
+          "grade",
+          "answer"
+        ]
+      ],
+      "answer_type": "answer",
+      "subtype": "answer",
+      "retrieved": [
+        "LAB-2023-06#2",
+        "LAB-2023-06#3",
+        "ATT-2023-01#1",
+        "LAB-2023-06#1",
+        "LAB-2023-05#4",
+        "LAB-2023-06#4"
+      ],
+      "cited": [
+        "LAB-2023-06#2"
+      ],
+      "retrieval_hit": true,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "elapsed_ms": 4.06,
+      "node_timings_ms": {
+        "interpret": 0.04,
+        "retrieve": 0.11,
+        "grade": 0.43,
+        "answer": 0.09
+      },
+      "checks": {
+        "answer_type": true,
+        "subtype": true,
+        "path": true,
+        "required_cited": true,
+        "no_stale_citation": true,
+        "phrases": true
+      },
+      "passed": true,
+      "answer": "The end-semester practical exam is out of 50 marks: 30 for writing and executing the experiment and 20 for viva voce. It lasts 3 hours and is conducted by one internal and one external examiner.  [1]\n\nSources:\n[1] Laboratory Course Assessment Policy (LAB-2023-06, issued 10 Aug 2023), Section 2"
+    },
+    {
+      "id": "Q09",
+      "tag": "guided_process",
+      "turns": [
+        "How do I apply for re-evaluation?"
+      ],
+      "path_per_turn": [
+        [
+          "interpret",
+          "retrieve",
+          "grade",
+          "answer"
+        ]
+      ],
+      "answer_type": "answer",
+      "subtype": "answer_with_update",
+      "retrieved": [
+        "REV-2023-07#1",
+        "REV-2023-07#3",
+        "REV-2023-07#2",
+        "REV-2023-07#4",
+        "REV-2025-02#1",
+        "EXM-2024-08#2"
+      ],
+      "cited": [
+        "REV-2023-07#1",
+        "REV-2023-07#3",
+        "REV-2025-02#1"
+      ],
+      "retrieval_hit": true,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "elapsed_ms": 1.96,
+      "node_timings_ms": {
+        "interpret": 0.03,
+        "retrieve": 0.08,
+        "grade": 0.28,
+        "answer": 0.12
+      },
+      "checks": {
+        "answer_type": true,
+        "subtype": true,
+        "path": true,
+        "required_cited": true,
+        "no_stale_citation": true,
+        "phrases": true
+      },
+      "passed": true,
+      "answer": "Who can apply for re-evaluation [1]\nRe-evaluation is available for theory papers only. Lab, practical and project viva results cannot be re-evaluated. You must have appeared for the exam.\n\nSteps to request re-evaluation [2]\n1. Optionally request a photocopy of your answer script using Form PC-02 to see how your paper was marked.\n2. Fill in Re-evaluation Form RE-01 with your register number, course code and exam session.\n3. Pay the re-evaluation fee for each paper and keep the receipt.\n4. Submit Form RE-01 and the fee receipt at the Controller of Examinations office before the window closes.\n5. Re-evaluation results are announced within 15 working days.\n\nNew application window and fee [3]\nFor results published on or after 1 February 2025, the application window for re-evaluation is 7 working days from the result publication date (earlier: 5 working days) and the fee is Rs. 1500 per paper (earlier: Rs. 1000). The photocopy fee stays at Rs. 300 per paper. Results published before 1 February 2025 continue under the earlier window and fee.\n\nUpdate: this reflects the more recent circular REV-2025-02 (issued 20 Jan 2025), which replaces Section 2 of the earlier Re-evaluation and Photocopy Procedure (REV-2023-07, issued 15 Sep 2023).\n\nSources:\n[1] Re-evaluation and Photocopy Procedure (REV-2023-07, issued 15 Sep 2023), Section 1\n[2] Re-evaluation and Photocopy Procedure (REV-2023-07, issued 15 Sep 2023), Section 3\n[3] Circular - Revised Re-evaluation Window and Fee (REV-2025-02, issued 20 Jan 2025), Section 1"
+    },
+    {
+      "id": "Q10",
+      "tag": "policy_update",
+      "turns": [
+        "How much is the re-evaluation fee?"
+      ],
+      "path_per_turn": [
+        [
+          "interpret",
+          "retrieve",
+          "grade",
+          "answer"
+        ]
+      ],
+      "answer_type": "answer",
+      "subtype": "answer_with_update",
+      "retrieved": [
+        "REV-2025-02#1",
+        "REV-2023-07#2",
+        "REV-2023-07#3",
+        "REV-2023-07#4",
+        "REV-2023-07#1",
+        "ATT-2024-03#1"
+      ],
+      "cited": [
+        "REV-2025-02#1",
+        "REV-2023-07#3"
+      ],
+      "retrieval_hit": true,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "elapsed_ms": 2.05,
+      "node_timings_ms": {
+        "interpret": 0.03,
+        "retrieve": 0.09,
+        "grade": 0.33,
+        "answer": 0.04
+      },
+      "checks": {
+        "answer_type": true,
+        "subtype": true,
+        "path": true,
+        "required_cited": true,
+        "no_stale_citation": true,
+        "phrases": true
+      },
+      "passed": true,
+      "answer": "New application window and fee [1]\nFor results published on or after 1 February 2025, the application window for re-evaluation is 7 working days from the result publication date (earlier: 5 working days) and the fee is Rs. 1500 per paper (earlier: Rs. 1000). The photocopy fee stays at Rs. 300 per paper. Results published before 1 February 2025 continue under the earlier window and fee.\n\nSteps to request re-evaluation [2]\n1. Optionally request a photocopy of your answer script using Form PC-02 to see how your paper was marked.\n2. Fill in Re-evaluation Form RE-01 with your register number, course code and exam session.\n3. Pay the re-evaluation fee for each paper and keep the receipt.\n4. Submit Form RE-01 and the fee receipt at the Controller of Examinations office before the window closes.\n5. Re-evaluation results are announced within 15 working days.\n\nUpdate: this reflects the more recent circular REV-2025-02 (issued 20 Jan 2025), which replaces Section 2 of the earlier Re-evaluation and Photocopy Procedure (REV-2023-07, issued 15 Sep 2023).\n\nSources:\n[1] Circular - Revised Re-evaluation Window and Fee (REV-2025-02, issued 20 Jan 2025), Section 1\n[2] Re-evaluation and Photocopy Procedure (REV-2023-07, issued 15 Sep 2023), Section 3"
+    },
+    {
+      "id": "Q11",
+      "tag": "out_of_scope",
+      "turns": [
+        "What is the weather in Chennai today?"
+      ],
+      "path_per_turn": [
+        [
+          "interpret",
+          "retrieve",
+          "grade",
+          "escalate"
+        ]
+      ],
+      "answer_type": "escalation",
+      "subtype": "out_of_scope",
+      "retrieved": [],
+      "cited": [],
+      "retrieval_hit": null,
+      "citation_precision": null,
+      "citation_recall": null,
+      "elapsed_ms": 1.51,
+      "node_timings_ms": {
+        "interpret": 0.03,
+        "retrieve": 0.04,
+        "grade": 0.0,
+        "escalate": 0.0
+      },
+      "checks": {
+        "answer_type": true,
+        "subtype": true,
+        "path": true,
+        "required_cited": true,
+        "no_stale_citation": true,
+        "phrases": true
+      },
+      "passed": true,
+      "answer": "That question is outside the university policy documents I can search (attendance, project submission, examinations, lab safety/assessment and re-evaluation). For anything else, please contact the Department Office."
+    },
+    {
+      "id": "Q12",
+      "tag": "insufficient_evidence",
+      "turns": [
+        "What is the grace marks policy for failed papers?"
+      ],
+      "path_per_turn": [
+        [
+          "interpret",
+          "retrieve",
+          "grade",
+          "escalate"
+        ]
+      ],
+      "answer_type": "escalation",
+      "subtype": "insufficient_evidence",
+      "retrieved": [
+        "EXM-2023-04#4",
+        "EXM-2024-08#2",
+        "ATT-2023-01#4",
+        "LAB-2023-06#1",
+        "LAB-2023-06#2",
+        "REV-2023-07#3"
+      ],
+      "cited": [],
+      "retrieval_hit": null,
+      "citation_precision": null,
+      "citation_recall": null,
+      "elapsed_ms": 2.07,
+      "node_timings_ms": {
+        "interpret": 0.04,
+        "retrieve": 0.15,
+        "grade": 0.27,
+        "escalate": 0.04
+      },
+      "checks": {
+        "answer_type": true,
+        "subtype": true,
+        "path": true,
+        "required_cited": true,
+        "no_stale_citation": true,
+        "phrases": true
+      },
+      "passed": true,
+      "answer": "I searched the policy documents but could not find a rule that answers this, and I do not want to guess. Please contact the Office of the Controller of Examinations for official confirmation.\n\nClosest documents I checked (they do not answer your question): Examination Instructions for Candidates; Make-up Examination Policy; Attendance Requirements Policy."
+    },
+    {
+      "id": "Q13",
+      "tag": "answer",
+      "turns": [
+        "What should I do if there is a fire in the lab?"
+      ],
+      "path_per_turn": [
+        [
+          "interpret",
+          "retrieve",
+          "grade",
+          "answer"
+        ]
+      ],
+      "answer_type": "answer",
+      "subtype": "answer",
+      "retrieved": [
+        "LAB-2023-05#4",
+        "LAB-2023-05#3",
+        "LAB-2023-06#3",
+        "LAB-2023-06#4",
+        "LAB-2023-05#1",
+        "LAB-2023-06#1"
+      ],
+      "cited": [
+        "LAB-2023-05#4",
+        "LAB-2023-05#3"
+      ],
+      "retrieval_hit": true,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "elapsed_ms": 1.82,
+      "node_timings_ms": {
+        "interpret": 0.03,
+        "retrieve": 0.07,
+        "grade": 0.33,
+        "answer": 0.03
+      },
+      "checks": {
+        "answer_type": true,
+        "subtype": true,
+        "path": true,
+        "required_cited": true,
+        "no_stale_citation": true,
+        "phrases": true
+      },
+      "passed": true,
+      "answer": "Fire emergency [1]\nIn case of fire, switch off the main power supply if it is safe to do so, raise the alarm, leave the lab through the nearest marked exit and gather at the assembly point. Use a fire extinguisher only if you have been trained and the fire is small.\n\nReporting incidents [2]\nReport any injury, spill, fire or equipment damage to the lab in-charge immediately and fill in Incident Form LS-01 within 24 hours.\n\nSources:\n[1] Laboratory Safety Guidelines (LAB-2023-05, issued 20 Jul 2023), Section 4\n[2] Laboratory Safety Guidelines (LAB-2023-05, issued 20 Jul 2023), Section 3"
+    },
+    {
+      "id": "Q14",
+      "tag": "answer",
+      "turns": [
+        "Can I carry my mobile phone into the exam hall if it is switched off?"
+      ],
+      "path_per_turn": [
+        [
+          "interpret",
+          "retrieve",
+          "grade",
+          "answer"
+        ]
+      ],
+      "answer_type": "answer",
+      "subtype": "answer",
+      "retrieved": [
+        "EXM-2023-04#3",
+        "EXM-2023-04#2",
+        "EXM-2023-04#1",
+        "LAB-2023-05#4",
+        "EXM-2023-04#4",
+        "EXM-2024-08#2"
+      ],
+      "cited": [
+        "EXM-2023-04#3",
+        "EXM-2023-04#2"
+      ],
+      "retrieval_hit": true,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "elapsed_ms": 1.88,
+      "node_timings_ms": {
+        "interpret": 0.04,
+        "retrieve": 0.1,
+        "grade": 0.32,
+        "answer": 0.02
+      },
+      "checks": {
+        "answer_type": true,
+        "subtype": true,
+        "path": true,
+        "required_cited": true,
+        "no_stale_citation": true,
+        "phrases": true
+      },
+      "passed": true,
+      "answer": "Items not allowed in the exam hall [1]\nMobile phones, smart watches, earphones, programmable calculators and any written or printed material are not allowed, even if a phone is switched off. Leave such items at the designated counter at your own risk, or do not bring them.\n\nDocuments you must carry [2]\nCarry your college ID card and your hall ticket to every exam. You will not be allowed to write without a hall ticket. If you lost it, collect a duplicate from the Controller of Examinations office (fee Rs. 200) before the exam.\n\nSources:\n[1] Examination Instructions for Candidates (EXM-2023-04, issued 1 Sep 2023), Section 3\n[2] Examination Instructions for Candidates (EXM-2023-04, issued 1 Sep 2023), Section 2"
+    },
+    {
+      "id": "Q15",
+      "tag": "answer",
+      "turns": [
+        "I missed my exam because I was in the hospital. Can I write a make-up exam?"
+      ],
+      "path_per_turn": [
+        [
+          "interpret",
+          "retrieve",
+          "grade",
+          "answer"
+        ]
+      ],
+      "answer_type": "answer",
+      "subtype": "answer",
+      "retrieved": [
+        "EXM-2024-08#1",
+        "EXM-2024-08#2",
+        "LAB-2023-06#4",
+        "EXM-2023-04#2",
+        "ATT-2023-01#1",
+        "EXM-2023-04#1"
+      ],
+      "cited": [
+        "EXM-2024-08#1",
+        "EXM-2024-08#2"
+      ],
+      "retrieval_hit": true,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "elapsed_ms": 1.88,
+      "node_timings_ms": {
+        "interpret": 0.04,
+        "retrieve": 0.11,
+        "grade": 0.29,
+        "answer": 0.03
+      },
+      "checks": {
+        "answer_type": true,
+        "subtype": true,
+        "path": true,
+        "required_cited": true,
+        "no_stale_citation": true,
+        "phrases": true
+      },
+      "passed": true,
+      "answer": "Who is eligible for a make-up examination [1]\nYou may apply for a make-up examination if you missed an end-semester exam because of hospitalisation (supported by a medical certificate and hospital record), the death of an immediate family member, or representing the university at a national-level event. Timetable clashes, oversleeping and travel delays are not valid reasons.\n\nHow to apply for a make-up examination [2]\nApply within 3 working days of the missed exam by submitting Form EX-07 with supporting documents to the Controller of Examinations office. The fee is Rs. 1000 per paper. The make-up exam is held within 30 days of the regular exam.\n\nSources:\n[1] Make-up Examination Policy (EXM-2024-08, issued 15 Jan 2024), Section 1\n[2] Make-up Examination Policy (EXM-2024-08, issued 15 Jan 2024), Section 2"
+    },
+    {
+      "id": "Q16",
+      "tag": "competing_references",
+      "turns": [
+        "What is the project report submission deadline?",
+        "not sure"
+      ],
+      "path_per_turn": [
+        [
+          "interpret",
+          "retrieve",
+          "grade",
+          "clarify"
+        ],
+        [
+          "interpret",
+          "retrieve",
+          "grade",
+          "answer"
+        ]
+      ],
+      "answer_type": "answer",
+      "subtype": "competing_references",
+      "retrieved": [
+        "PRJ-2023-02#3",
+        "PRJ-2023-02#2",
+        "PRJ-2023-02#4",
+        "PRJ-2025-04#1",
+        "PRJ-2023-02#1",
+        "LAB-2023-05#3"
+      ],
+      "cited": [
+        "PRJ-2025-04#1",
+        "PRJ-2023-02#2"
+      ],
+      "retrieval_hit": true,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "elapsed_ms": 3.89,
+      "node_timings_ms": {
+        "interpret": 0.06,
+        "retrieve": 0.07,
+        "grade": 0.25,
+        "answer": 0.04
+      },
+      "checks": {
+        "answer_type": true,
+        "subtype": true,
+        "path": true,
+        "required_cited": true,
+        "no_stale_citation": true,
+        "phrases": true
+      },
+      "passed": true,
+      "answer": "I could not tell which case applies to you, so I am showing both rather than guessing:\n\nIf this is about final: From the even semester of 2024-25 onwards, the final-year (capstone) project report must be submitted no later than 15 working days before the start of the end-semester examinations (earlier: 10 working days). This circular applies to final-year projects only. Mini project deadlines are not affected.  [1]\n\nIf this is about mini: Mini projects (done in semesters 5 and 6) must be submitted on the project portal, along with the demo video link, by the last instructional day of the semester.  [2]\n\nPlease confirm which applies to you with your Project Coordinator or the Department Office.\n\nSources:\n[1] Circular - Revised Final-Year Project Report Deadline (PRJ-2025-04, issued 10 Mar 2025), Section 1\n[2] Project Work Submission Rules (PRJ-2023-02, issued 1 Aug 2023), Section 2"
+    },
+    {
+      "id": "Q17",
+      "tag": "no_simulated_action",
+      "turns": [
+        "Please submit my re-evaluation request for me"
+      ],
+      "path_per_turn": [
+        [
+          "interpret",
+          "retrieve",
+          "grade",
+          "answer"
+        ]
+      ],
+      "answer_type": "answer",
+      "subtype": "answer",
+      "retrieved": [
+        "REV-2023-07#3",
+        "REV-2023-07#4",
+        "REV-2023-07#1",
+        "REV-2025-02#1",
+        "REV-2023-07#2",
+        "PRJ-2023-02#2"
+      ],
+      "cited": [
+        "REV-2023-07#3"
+      ],
+      "retrieval_hit": true,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "elapsed_ms": 2.56,
+      "node_timings_ms": {
+        "interpret": 0.03,
+        "retrieve": 0.09,
+        "grade": 0.32,
+        "answer": 0.03
+      },
+      "checks": {
+        "answer_type": true,
+        "subtype": true,
+        "path": true,
+        "required_cited": true,
+        "no_stale_citation": true,
+        "phrases": true
+      },
+      "passed": true,
+      "answer": "1. Optionally request a photocopy of your answer script using Form PC-02 to see how your paper was marked.\n2. Fill in Re-evaluation Form RE-01 with your register number, course code and exam session.\n3. Pay the re-evaluation fee for each paper and keep the receipt.\n4. Submit Form RE-01 and the fee receipt at the Controller of Examinations office before the window closes.\n5. Re-evaluation results are announced within 15 working days.  [1]\n\nI can only explain the policy - I cannot submit or file requests on your behalf.\n\nSources:\n[1] Re-evaluation and Photocopy Procedure (REV-2023-07, issued 15 Sep 2023), Section 3"
+    }
+  ]
+}

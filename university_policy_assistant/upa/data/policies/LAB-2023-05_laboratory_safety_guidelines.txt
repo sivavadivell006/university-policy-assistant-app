@@ -1,0 +1,16 @@
+TITLE: Laboratory Safety Guidelines
+DOC_ID: LAB-2023-05
+ISSUED: 2023-07-20
+CATEGORY: lab
+
+SECTION 1: Dress code and protective equipment
+Wear closed-toe shoes and a lab coat in every lab session. Tie back long hair. Safety goggles are compulsory in chemistry labs and during soldering or machining work.
+
+SECTION 2: Electrical and equipment safety
+Do not switch on any equipment until the faculty or technician has checked your connections. Report damaged cables or plugs immediately. Never work in a lab alone or outside scheduled hours.
+
+SECTION 3: Reporting incidents
+Report any injury, spill, fire or equipment damage to the lab in-charge immediately and fill in Incident Form LS-01 within 24 hours.
+
+SECTION 4: Fire emergency
+In case of fire, switch off the main power supply if it is safe to do so, raise the alarm, leave the lab through the nearest marked exit and gather at the assembly point. Use a fire extinguisher only if you have been trained and the fire is small.

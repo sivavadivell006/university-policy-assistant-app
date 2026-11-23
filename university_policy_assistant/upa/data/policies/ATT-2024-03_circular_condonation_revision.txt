@@ -1,0 +1,10 @@
+TITLE: Circular - Revision of Attendance Condonation Rules
+DOC_ID: ATT-2024-03
+ISSUED: 2024-08-05
+CATEGORY: attendance
+
+SECTION 1 [updates=ATT-2023-01#3]: Revised condonation limit and fee
+With effect from the odd semester of academic year 2024-25, you may apply for condonation of attendance shortage only if your attendance in the course is between 70% and 74% (earlier limit: 65%). The condonation fee is now Rs. 500 per course (earlier fee: Rs. 300). The application route (class advisor to HoD) and the need for documentary proof such as a medical certificate are unchanged. Attendance below 70% cannot be condoned.
+
+SECTION 2: What has not changed
+The basic requirement of 75% attendance in each course, the treatment of on-duty attendance and the rules for detained students continue as per the Attendance Requirements Policy.

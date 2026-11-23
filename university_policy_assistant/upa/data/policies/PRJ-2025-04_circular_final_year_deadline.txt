@@ -1,0 +1,7 @@
+TITLE: Circular - Revised Final-Year Project Report Deadline
+DOC_ID: PRJ-2025-04
+ISSUED: 2025-03-10
+CATEGORY: project
+
+SECTION 1 [project_type=final; updates=PRJ-2023-02#3]: New final-year report deadline
+From the even semester of 2024-25 onwards, the final-year (capstone) project report must be submitted no later than 15 working days before the start of the end-semester examinations (earlier: 10 working days). This circular applies to final-year projects only. Mini project deadlines are not affected.

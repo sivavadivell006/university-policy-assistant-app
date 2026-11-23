@@ -1,0 +1,16 @@
+TITLE: Project Work Submission Rules
+DOC_ID: PRJ-2023-02
+ISSUED: 2023-08-01
+CATEGORY: project
+
+SECTION 1: Report format and plagiarism limit
+Every project report must follow the department template, be uploaded as a single PDF on the project portal and also submitted as two spiral-bound hard copies. The similarity (plagiarism) score must be below 20%; reports above this limit are returned for correction.
+
+SECTION 2 [project_type=mini]: Mini project report deadline
+Mini projects (done in semesters 5 and 6) must be submitted on the project portal, along with the demo video link, by the last instructional day of the semester.
+
+SECTION 3 [project_type=final]: Final-year project report deadline
+Final-year (capstone) project reports must be submitted no later than 10 working days before the start of the end-semester examinations.
+
+SECTION 4: Late submission
+A report submitted up to 3 working days after the deadline loses 10% of the internal project marks for each day of delay. After 3 working days the report is not accepted, and you must resubmit in the next semester with the HoD's approval.

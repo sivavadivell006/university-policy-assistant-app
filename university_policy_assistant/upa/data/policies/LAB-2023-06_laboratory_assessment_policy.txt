@@ -1,0 +1,16 @@
+TITLE: Laboratory Course Assessment Policy
+DOC_ID: LAB-2023-06
+ISSUED: 2023-08-10
+CATEGORY: lab
+
+SECTION 1 [assessment=internal]: Internal (continuous) assessment of lab courses
+The internal assessment is out of 50 marks: 25 for performance and observation notebook in each session, 10 for the record notebook and 15 for the internal model practical test.
+
+SECTION 2 [assessment=end_semester]: End-semester practical examination
+The end-semester practical exam is out of 50 marks: 30 for writing and executing the experiment and 20 for viva voce. It lasts 3 hours and is conducted by one internal and one external examiner.
+
+SECTION 3: Passing a lab course
+To pass a lab course you need at least 50 out of 100 overall, and at least 20 out of 50 in the end-semester practical examination.
+
+SECTION 4: Missed lab sessions
+If you miss a lab session for a valid reason, you may perform the experiment in a make-up slot within the same week with the lab in-charge's approval. Each student gets at most 2 make-up slots per semester.

@@ -1,0 +1,63 @@
+[
+  {"id": "Q01", "tag": "answer", "turns": ["What is the minimum attendance I need to write the end-semester exam?"],
+   "expect": {"answer_type": "answer", "path": ["interpret","retrieve","grade","answer"], "cited": ["ATT-2023-01#1"], "phrases": ["75%"]}},
+
+  {"id": "Q02", "tag": "policy_update", "turns": ["Can I get attendance condonation and what is the fee?"],
+   "expect": {"answer_type": "answer", "subtype": "answer_with_update", "path": ["interpret","retrieve","grade","answer"],
+              "cited": ["ATT-2024-03#1"], "acceptable": ["ATT-2024-03#2"], "must_not_cite": ["ATT-2023-01#3"], "phrases": ["Rs. 500", "70%", "ATT-2024-03"]}},
+
+  {"id": "Q03", "tag": "personal_record", "turns": ["My attendance is 68%. Am I eligible for condonation?"],
+   "expect": {"answer_type": "answer", "path": ["interpret","retrieve","grade","answer"],
+              "cited": ["ATT-2024-03#1"], "acceptable": ["ATT-2024-03#2"], "must_not_cite": ["ATT-2023-01#3"], "phrases": ["cannot confirm that you are eligible"]}},
+
+  {"id": "Q04", "tag": "ambiguity", "turns": ["What is the project report submission deadline?"],
+   "expect": {"answer_type": "clarification", "path": ["interpret","retrieve","grade","clarify"], "cited": [], "phrases": ["mini project", "final-year"]}},
+
+  {"id": "Q05", "tag": "ambiguity+update", "turns": ["What is the project report submission deadline?", "final year"],
+   "expect": {"answer_type": "answer", "subtype": "answer_with_update", "path": ["interpret","retrieve","grade","answer"],
+              "cited": ["PRJ-2025-04#1"], "acceptable": ["PRJ-2023-02#4"], "must_not_cite": ["PRJ-2023-02#3", "PRJ-2023-02#2"],
+              "phrases": ["15 working days", "PRJ-2025-04"]}},
+
+  {"id": "Q06", "tag": "answer", "turns": ["When do I submit my mini project report?"],
+   "expect": {"answer_type": "answer", "path": ["interpret","retrieve","grade","answer"], "cited": ["PRJ-2023-02#2"],
+              "acceptable": ["PRJ-2023-02#1", "PRJ-2023-02#4"], "must_not_cite": ["PRJ-2025-04#1"], "phrases": ["last instructional day"]}},
+
+  {"id": "Q07", "tag": "ambiguity", "turns": ["How are lab marks split up?"],
+   "expect": {"answer_type": "clarification", "path": ["interpret","retrieve","grade","clarify"], "cited": [], "phrases": ["internal", "end-semester"]}},
+
+  {"id": "Q08", "tag": "ambiguity", "turns": ["How are lab marks split up?", "end semester one"],
+   "expect": {"answer_type": "answer", "path": ["interpret","retrieve","grade","answer"], "cited": ["LAB-2023-06#2"],
+              "acceptable": ["LAB-2023-06#3"], "must_not_cite": ["LAB-2023-06#1"], "phrases": ["viva"]}},
+
+  {"id": "Q09", "tag": "guided_process", "turns": ["How do I apply for re-evaluation?"],
+   "expect": {"answer_type": "answer", "subtype": "answer_with_update", "path": ["interpret","retrieve","grade","answer"],
+              "cited": ["REV-2023-07#3", "REV-2025-02#1"], "acceptable": ["REV-2023-07#1"], "must_not_cite": ["REV-2023-07#2"],
+              "phrases": ["RE-01", "7 working days"]}},
+
+  {"id": "Q10", "tag": "policy_update", "turns": ["How much is the re-evaluation fee?"],
+   "expect": {"answer_type": "answer", "subtype": "answer_with_update", "path": ["interpret","retrieve","grade","answer"],
+              "cited": ["REV-2025-02#1"], "acceptable": ["REV-2023-07#3"], "must_not_cite": ["REV-2023-07#2"], "phrases": ["Rs. 1500"]}},
+
+  {"id": "Q11", "tag": "out_of_scope", "turns": ["What is the weather in Chennai today?"],
+   "expect": {"answer_type": "escalation", "subtype": "out_of_scope", "path": ["interpret","retrieve","grade","escalate"], "cited": [], "phrases": ["Department Office"]}},
+
+  {"id": "Q12", "tag": "insufficient_evidence", "turns": ["What is the grace marks policy for failed papers?"],
+   "expect": {"answer_type": "escalation", "subtype": "insufficient_evidence", "path": ["interpret","retrieve","grade","escalate"], "cited": [], "phrases": ["Controller of Examinations"]}},
+
+  {"id": "Q13", "tag": "answer", "turns": ["What should I do if there is a fire in the lab?"],
+   "expect": {"answer_type": "answer", "path": ["interpret","retrieve","grade","answer"], "cited": ["LAB-2023-05#4"], "acceptable": ["LAB-2023-05#3"], "phrases": ["assembly point"]}},
+
+  {"id": "Q14", "tag": "answer", "turns": ["Can I carry my mobile phone into the exam hall if it is switched off?"],
+   "expect": {"answer_type": "answer", "path": ["interpret","retrieve","grade","answer"], "cited": ["EXM-2023-04#3"], "acceptable": ["EXM-2023-04#2"], "phrases": ["not allowed"]}},
+
+  {"id": "Q15", "tag": "answer", "turns": ["I missed my exam because I was in the hospital. Can I write a make-up exam?"],
+   "expect": {"answer_type": "answer", "path": ["interpret","retrieve","grade","answer"], "cited": ["EXM-2024-08#1"], "acceptable": ["EXM-2024-08#2"], "phrases": ["hospitalisation"]}},
+
+  {"id": "Q16", "tag": "competing_references", "turns": ["What is the project report submission deadline?", "not sure"],
+   "expect": {"answer_type": "answer", "subtype": "competing_references", "path": ["interpret","retrieve","grade","answer"],
+              "cited": ["PRJ-2023-02#2", "PRJ-2025-04#1"], "must_not_cite": ["PRJ-2023-02#3"], "phrases": ["rather than guessing"]}},
+
+  {"id": "Q17", "tag": "no_simulated_action", "turns": ["Please submit my re-evaluation request for me"],
+   "expect": {"answer_type": "answer", "path": ["interpret","retrieve","grade","answer"], "cited": ["REV-2023-07#3"],
+              "acceptable": ["REV-2023-07#1", "REV-2025-02#1"], "phrases": ["cannot submit or file requests"]}}
+]

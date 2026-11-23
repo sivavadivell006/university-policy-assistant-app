@@ -1,0 +1,5 @@
+langgraph>=0.2
+pypdf>=4.0          # only needed to ingest PDF policy files
+pytest>=8.0         # tests
+reportlab>=4.0      # only used by the PDF-ingestion test
+streamlit>=1.35     # optional web chat UI (app.py)

@@ -1,0 +1,7 @@
+TITLE: Circular - Revised Re-evaluation Window and Fee
+DOC_ID: REV-2025-02
+ISSUED: 2025-01-20
+CATEGORY: reevaluation
+
+SECTION 1 [updates=REV-2023-07#2]: New application window and fee
+For results published on or after 1 February 2025, the application window for re-evaluation is 7 working days from the result publication date (earlier: 5 working days) and the fee is Rs. 1500 per paper (earlier: Rs. 1000). The photocopy fee stays at Rs. 300 per paper. Results published before 1 February 2025 continue under the earlier window and fee.
